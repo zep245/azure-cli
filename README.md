@@ -16,3 +16,4 @@ az account show --query id -o tsv
 ```
 az ad sp create-for-rbac --name adf-github-sp --role Contributor --scopes /subscriptions/YOUR_SUBSCRIPTION_ID --sdk-auth
 ```
+### Copy the Json and paste in the github Repository secrets
